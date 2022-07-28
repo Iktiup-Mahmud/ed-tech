@@ -1,7 +1,10 @@
 .banner-bg-image img{
     filter: brightness(50%);
     height: 800px;
-    /* height: auto; */
     width: 1320px;
 
+}
+.e-learning-bg{
+    background-color: #F4FAFD;
+    ;
 }
