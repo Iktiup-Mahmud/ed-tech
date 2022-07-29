@@ -18,7 +18,7 @@
     <!-- header start -->
     <header>
         <!-- navbar start  -->
-        <nav class="navbar navbar-expand-lg bg-light container d-flex justify-content-between">
+        <nav class="navbar navbar-expand-lg sticky-full bg-light container d-flex justify-content-between">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <h2>Learning <span class="text-primary">Hub</span></h2>
@@ -34,29 +34,29 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#courses" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Courses
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Javascript</a></li>
-                                <li><a class="dropdown-item" href="#">Ui/Ux</a></li>
-                                <li><a class="dropdown-item" href="#">Photography</a></li>
-                                <li><a class="dropdown-item" href="#">Motion Grapics</a></li>
-                                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="#courses">Javascript</a></li>
+                                <li><a class="dropdown-item" href="#courses">Ui/Ux</a></li>
+                                <li><a class="dropdown-item" href="#courses">Photography</a></li>
+                                <li><a class="dropdown-item" href="#courses">Motion Grapics</a></li>
+                                <li><a class="dropdown-item" href="#courses">Digital Marketing</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Deals</a>
+                            <a class="nav-link active" href="#student-s">Success</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  href="#">Success</a>
+                            <a class="nav-link active"  href="#faq">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  href="#">About</a>
+                            <a class="nav-link active"  href="#register">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  href="#">Register</a>
+                            <a class="nav-link active" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <button class="btn btn-outline-primary" type="submit">Register</button>
@@ -68,31 +68,31 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner banner-bg-image">
                 <!-- first image  -->
-                <div class="carousel-item active" data-bs-interval="1000000">
+                <div class="carousel-item active" data-bs-interval="4000">
                     <div>
                         <img src="media/images/cover/cover-1.png" class="img-fluid  w-100" alt="...">
                     </div>
                     <div class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center ">
                         <h1>Get Started Digital Learning</h1>
-                        <p>Hey we are Learning Hub. We provide you a lot of courses according to your interest and passion. Our courses are free and internation standered. So feel free to join with us.</p>
+                        <p>Hey we are Learning Hub. We provide you a lot of courses according to <span class="banner-pa">your interest and passion. Our courses are free and internation standered. So feel free to join with us.</span> </p>
                         <button class="btn btn-primary px-3 py-2">Get Started</button>
                     </div>
                 </div>
                 <!-- second image -->
-                <div class="carousel-item" data-bs-interval="1000">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src="media/images/cover/cover-2.jpg" class="img-fluid d-block w-100" alt="...">
                     <div class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center ">
                         <h1>Get Started Digital Learning</h1>
-                        <p>Hey we are Learning Hub. We provide you a lot of courses according to your interest and passion. Our courses are free and internation standered. So feel free to join with us.</p>
+                        <p>Hey we are Learning Hub. We provide you a lot of courses according to <span class="banner-pa">your interest and passion. Our courses are free and internation standered. So feel free to join with us.</span> </p>
                         <button class="btn btn-primary px-3 py-2">Get Started</button>
                     </div>
                 </div>
                 <!-- third image  -->
-                <div class="carousel-item" data-bs-interval="1000">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src="media/images/cover/cover-3.jpg" class="img-fluid d-block w-100" alt="...">
                     <div class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center ">
                         <h1>Get Started Digital Learning</h1>
-                        <p>Hey we are Learning Hub. We provide you a lot of courses according to your interest and passion. Our courses are free and internation standered. So feel free to join with us.</p>
+                        <p>Hey we are Learning Hub. We provide you a lot of courses according to <span class="banner-pa">your interest and passion. Our courses are free and internation standered. So feel free to join with us.</span> </p>
                         <button class="btn btn-primary px-3 py-2">Get Started</button>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
             <!-- course header  end-->
 
             <!-- courses section start  -->
-            <div class="row g-5">
+            <div class="row g-5"  id="courses">
 
                 <!-- column 1 -->
                 <div class="col-12 col-lg-6 col-md-12 col-sm-12 ">
@@ -134,7 +134,7 @@
                         <div class="col-12 col-lg-4 col-md-4 p-0 m-0">
                             <img class="img-fluid w-100 " src="media/images/course/course-1.png" alt="">
                         </div>
-                        <div class="col-12 col-lg-8 col-md-8 mt-3">
+                        <div class="col-12 col-lg-8 col-md-8 col-sm-12 mt-3">
                             <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
                             <p>User interface (UI) design is about making the product look good. It's about adding colors, borders, icons, shadows.</p>
                             <h4><Span class="text-primary fw-bold">Price : 0$</Span></h4>
@@ -148,7 +148,7 @@
                         <div class="col-12 col-lg-4 col-md-4 p-0 m-0">
                             <img class="img-fluid w-100" src="media/images/course/course-2.png" alt="">
                         </div>
-                        <div class="col-12 col-lg-8 col-md-8 mt-3">
+                        <div class="col-12 col-lg-8 col-md-8 col-sm-12 mt-3">
                             <h3 class="fw-bold">Fullstack Web Development</h3>
                             <p>A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side.</p>
                             <h4><Span class="text-primary fw-bold">Price : 0$</Span></h4>
@@ -162,7 +162,7 @@
                             <div class="col-12 col-lg-4 col-md-4 p-0 m-0">
                                 <img class="img-fluid w-100" src="media/images/course/course-3.png" alt="">
                             </div>
-                            <div class="col-12 col-lg-8 col-md-8 mt-3">
+                            <div class="col-12 col-lg-8 col-md-8 col-sm-12 mt-3">
                                 <h3 class="fw-bold">Javascript Basic To Advance</h3>
                                 <p>A perfect JavaScript course for all those who want to learn and master JavaScript programming skills right from scratch.</p>
                                 <h4><Span class="text-primary fw-bold">Price : 0$</Span></h4>
@@ -179,7 +179,7 @@
                         <div class="col-12 col-lg-4 col-md-4 p-0 m-0">
                             <img class="img-fluid w-100" src="media/images/course/course-4.png" alt="">
                         </div>
-                        <div class="col-12 col-lg-8 col-md-8 mt-3">
+                        <div class="col-12 col-lg-8 col-md-8 col-sm-12 mt-3">
                             <h3 class="fw-bold">Digital Marketing</h3>
                             <p>Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication.</p>
                             <h4><Span class="text-primary fw-bold">Price : 0$</Span></h4>
@@ -193,7 +193,7 @@
                         <div class="col-12 col-lg-4 col-md-4 p-0 m-0">
                             <img class="img-fluid w-100" src="media/images/course/course-5.png" alt="">
                         </div>
-                        <div class="col-12 col-lg-8 col-md-8 mt-3">
+                        <div class="col-12 col-lg-8 col-md-8 col-sm-12 mt-3">
                             <h3 class="fw-bold">Photography Basic Rules</h3>
                             <p>Our beginner photography course will help you understand the basics of light and how your eye fixes lighting.</p>
                             <h4><Span class="text-primary fw-bold">Price : 0$</Span></h4>
@@ -207,7 +207,7 @@
                             <div class="col-12 col-lg-4 col-md-4 p-0 m-0">
                                 <img class="img-fluid w-100" src="media/images/course/course-6.png" alt="">
                             </div>
-                            <div class="col-12 col-lg-8 col-md-8 mt-3">
+                            <div class="col-12 col-lg-8 col-md-8 col-sm-12 mt-3">
                                 <h3 class="fw-bold">Motion Graphics</h3>
                                 <p>Motion graphics (sometimes mograph) are pieces of animation or digital footage which create the illusion of motion or rotation, and are usually combined with audio for use in multimedia projects.</p>
                                 <h4><Span class="text-primary fw-bold">Price : 0$</Span></h4>
@@ -230,10 +230,10 @@
         <!-- explore e-learning start  -->
         <section class="container my-lg-5">
             <div class="row e-learning-bg">
-                <div class="col-lg-5 col-sm-12 m-0 p-0">
-                    <img class="img-fluid" src="media/images/working.png" alt="">
+                <div class="col-lg-5 col-md-5 col-sm-12 m-0 p-0">
+                    <img class="img-fluid w-100 h-100" src="media/images/working.png" alt="">
                 </div>
-                <div class="col-lg-7 col-sm-12 p-5">
+                <div class="col-lg-7 col-md-7 col-sm-12 p-5">
                     <h1 class="pt-5 pb-3">Explore The E-Learning<br> Institute</h1>
                     <p>The world of ‘e’ is big business and the ‘e’ prefix is beingattached to everything — e-commerce and e-recruitment, and thelatest in the ‘e’ stable is e-learning. <span class="explore-p">e-Learning is beginning totake off in the UK and the signs from the USA indicate it will bedifficult to ignore. As one commentator noted, ‘online learning isnot the next big thing; it is the now best thing’.‘e-learning is forever. Continuous education. The forty yeardegree. Daily learning. Work becomes learning, learning becomeswork, and nobody ever graduates.’ (Donna Abernathy, Trainingand Development Magazine, quoted in Cross, 2000)In 1998, 92 per cent of US organisations were planning toimplement some form of Internet or intranet based training(Epic, 1999). </span></p>
                     <div class="d-flex justify-content-between py-5">
@@ -259,7 +259,7 @@
         <!-- explore e-learning end -->
 
         <!-- ready to join section start  -->
-        <section class="container my-5 pt-5">
+        <section class="container my-5 pt-5" id="register">
             <div class="bg-primary d-flex justify-content-between row rounded-3">
                 <div class="col-lg-9 col-sm-12">
                     <h2 class="px-5 pt-5 text-white">Ready To Join?</h2>
@@ -295,13 +295,13 @@
         <!-- ready to join section end  -->
         
         <!-- students section start  -->
-        <section class="container py-5">
+        <section class="container py-5"  id="student-s">
             <h1 class="pt-5">Meet Our Successfull <br> Students</h1>
             <p>Here is some successfull student of our intitute. They are doing awesome on their working field.</p>
 
             <!-- students row  -->
             <div class="row mt-5">
-                <div class="col-lg-3 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div>
                         <img class="img-fluid w-100" src="media/images/student/student-1.png" alt="">
                     </div>
@@ -310,7 +310,7 @@
                         <p>UIUX Designer</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div>
                         <img class="img-fluid w-100" src="media/images/student/student-2.png" alt="">
                     </div>
@@ -319,7 +319,7 @@
                         <p>Motion Designer</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div>
                         <img class="img-fluid w-100" src="media/images/student/student-3.png" alt="">
                     </div>
@@ -328,7 +328,7 @@
                         <p>Graphics Designer</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div>
                         <img class="img-fluid w-100" src="media/images/student/student-4.png" alt="">
                     </div>
@@ -347,7 +347,7 @@
         <!-- students section end -->
 
         <!-- fnq section start  -->
-        <section class="container text-center pe-5 me-5 py-5 fnq-ac"> 
+        <section class="container text-center pe-5 me-5 py-5 fnq-ac" id="faq"> 
             <h1>Frequently Asked Questions</h1>
             <p>Here is some answer those are frequently asked by people. Hope you will know something about us by reading those.</p>
 
@@ -431,12 +431,12 @@
 
 
     <!-- footer start  -->
-    <footer class="bg-black text-white text-center m-o p-0">
+    <footer class="bg-black text-white text-center m-o p-0" id="contact">
         <div class=" p-5">
             <h1 class="text-white fw-bold pt-5">Learning Hub</h1>
             <p>Office 41, Zawaya Buildin, Ghala Muscat,<br> Sultanate of Oman</p>
             <p>Privacy Ploicy  |   Terms of use</p>
-            <div class="fs-2 pb-5 text-white">
+            <div class="fs-2 pb-5 text-white scl-logo">
                 <a href="https://www.facebook.com" target="blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.twitter.com" target="blank"><i class="fa-brands fa-twitter"></i></a>
                 <a href="https://www.linkedin.com" target="blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -451,7 +451,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-        
+
 </body>
 
 </html>
